@@ -3,13 +3,13 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site·
-title: Hexo
+title: 一朝一昏
 subtitle: ''
-description: ''
-keywords:
+description: '记录学习过程'
+keywords: asp.net,asp.net core,.net core
 author: ZhaohunWang
 language: zh-CN
-timezone: ''
+timezone: 'Asia/Shanghai'
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
