@@ -100,4 +100,4 @@ theme: Butterfly
 deploy:
   type: git
   repo: https://github.com/Zhaohunwang/Zhaohunwang.github.io
-  branch: gh-pages
+  branch: master
