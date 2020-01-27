@@ -1,0 +1,8 @@
+class:
+  class_name: 友情链接
+  link_list:
+    1:
+      name: enjoy-yuan
+      link: http://enjoy-yuan.github.io
+      avatar: https://enjoy-yuan.github.io/img/avatar.jpg
+      descr: 资深前端
