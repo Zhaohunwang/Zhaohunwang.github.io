@@ -33,6 +33,7 @@ $Env:ASPNETCORE_ENVIRONMENT = "环境名"
 
 ```
 dotnet ef migrations add InitialCreate
+dotnet ef database update
 ```
 
 参考资料
