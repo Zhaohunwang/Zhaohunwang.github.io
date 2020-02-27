@@ -3,7 +3,6 @@ title: efCore多环境迁移
 date: 2020-01-27 14:08:27
 tags: ef core
 category: ef
-top_img: /Zhaohunwang.github.io/img/archive.jpg
 ---
 Ef Core迁移数据库中，使用不同环境的连接字符串对数据库进行迁移
 
