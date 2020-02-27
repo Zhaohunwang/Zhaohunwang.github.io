@@ -4,6 +4,25 @@
   
     
     <entry>
+      <title>sqlserver取随机数据</title>
+      <link href="/Zhaohunwang.github.io/2020/02/27/sqlserver%E5%8F%96%E9%9A%8F%E6%9C%BA%E6%95%B0%E6%8D%AE/"/>
+      <url>/Zhaohunwang.github.io/2020/02/27/sqlserver%E5%8F%96%E9%9A%8F%E6%9C%BA%E6%95%B0%E6%8D%AE/</url>
+      
+        <content type="html"><![CDATA[<p>在sqlserver中查询随机排列的数据</p><div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">sql</div><div class="copy-notice"></div><i class="fa fa-clipboard" aria-hidden="true"></i></div><figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">SELECT</span>  * <span class="keyword">FROM</span> Db <span class="keyword">ORDER</span> <span class="keyword">BY</span> NEWID()</span><br></pre></td></tr></table></figure></div><p>newid()的返回值 是uniqueidentifier ,order by newid()随机选取记录是如何进行的 newid()在扫描每条记录的时候都生成一个值, 而生成的值是随机的, 没有大小写顺序. 所以最终结果再按这个排序, 排序的结果当然就是无序的了</p><p>参考资料</p><p><a href="https://docs.microsoft.com/en-us/sql/t-sql/functions/newid-transact-sql?view=sql-server-2017" target="_blank" rel="noopener">NEWID (Transact-SQL)</a></p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> sql </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>sqlserver下查询前一条数据</title>
       <link href="/Zhaohunwang.github.io/2020/02/10/sqlserver%E4%B8%8B%E6%9F%A5%E8%AF%A2%E5%89%8D%E4%B8%80%E6%9D%A1%E6%95%B0%E6%8D%AE/"/>
       <url>/Zhaohunwang.github.io/2020/02/10/sqlserver%E4%B8%8B%E6%9F%A5%E8%AF%A2%E5%89%8D%E4%B8%80%E6%9D%A1%E6%95%B0%E6%8D%AE/</url>
